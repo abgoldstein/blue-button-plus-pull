@@ -791,7 +791,6 @@ form.bs-docs-example {
 }
 .bs-docs-sidenav > li > a {
   display: block;
-  width: 190px \9;
   margin: 0 0 -1px;
   padding: 8px 14px;
   border: 1px solid #e5e5e5;
@@ -870,9 +869,6 @@ ul.bs-docs-sidenav li.active a  {
   }
   .bs-docs-sidenav {
     width: 258px;
-  }
-  .bs-docs-sidenav > li > a {
-    width: 230px \9; /* Override the previous IE8-9 hack */
   }
 }
 
@@ -1110,4 +1106,28 @@ ol.linenums li {
   color: #bebec5;
   line-height: 20px;
   text-shadow: 0 1px 0 #fff;
+}
+
+.section {
+  font-size: 8px;
+  vertical-align: middle;
+}
+
+pre.diagram {
+  background: white;
+  border: 0px;
+  overflow: visible;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+h1 .badge, h2 .badge, h3 .badge, h4 .badge, h5 .badge, h6 .badge,
+h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label {
+  vertical-align: middle;
+  font-size: 50%;
+  line-height: normal;
 }

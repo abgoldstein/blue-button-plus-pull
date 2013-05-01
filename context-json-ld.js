@@ -1,6 +1,8 @@
 {
   "@vocab": "http://schema.org/",
   "oauth2": "http://siframework.org/ABBI/oauth2_endpoints",
+  "jwks_uri": "http://siframework.org/ABBI/jwks_uri",
+  "trust_bundle_uri": "http://siframework.org/ABBI/trust_bundle_uri",
   "bb_api": "http://siframework.org/ABBI/bbplus_data_endpoints",
   "authorize": "http://siframework.org/ABBI/endpoint/authorize",
   "token": "http://siframework.org/ABBI/endpoint/token",
